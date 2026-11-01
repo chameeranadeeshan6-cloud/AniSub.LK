@@ -1,0 +1,601 @@
+{
+  "siteName": "AniSub LK",
+  "tagline": "Your anime world, in Sinhala.",
+  "anime": [
+    {
+      "id": "kaiju-no-8",
+      "title": "Kaiju No. 8",
+      "status": "Ongoing",
+      "genre": "Action • Sci-Fi",
+      "description": "Kafka Hibino dreams of joining the Defense Force. His life changes when he gains the ability to transform into a Kaiju.",
+      "seasons": [
+        {
+          "number": 1,
+          "episodes": [
+            {
+              "number": 1,
+              "title": "Episode 01",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 2,
+              "title": "Episode 02",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 3,
+              "title": "Episode 03",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 4,
+              "title": "Episode 04",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 5,
+              "title": "Episode 05",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 6,
+              "title": "Episode 06",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 7,
+              "title": "Episode 07",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 8,
+              "title": "Episode 08",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 9,
+              "title": "Episode 09",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 10,
+              "title": "Episode 10",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 11,
+              "title": "Episode 11",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 12,
+              "title": "Episode 12",
+              "subtitle": "Coming soon",
+              "file": ""
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "episodes": [
+            {
+              "number": 1,
+              "title": "Episode 13",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 2,
+              "title": "Episode 14",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 3,
+              "title": "Episode 15",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 4,
+              "title": "Episode 16",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 5,
+              "title": "Episode 17",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 6,
+              "title": "Episode 18",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 7,
+              "title": "Episode 19",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 8,
+              "title": "Episode 20",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 9,
+              "title": "Episode 21",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 10,
+              "title": "Episode 22",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 11,
+              "title": "Episode 23",
+              "subtitle": "Coming soon",
+              "file": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "death-note",
+      "title": "Death Note",
+      "status": "Completed",
+      "genre": "Mystery • Thriller",
+      "description": "A student discovers a mysterious notebook that changes his life.",
+      "seasons": [
+        {
+          "number": 1,
+          "episodes": [
+            {
+              "number": 1,
+              "title": "Episode 01",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 2,
+              "title": "Episode 02",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 3,
+              "title": "Episode 03",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 4,
+              "title": "Episode 04",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 5,
+              "title": "Episode 05",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 6,
+              "title": "Episode 06",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 7,
+              "title": "Episode 07",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 8,
+              "title": "Episode 08",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 9,
+              "title": "Episode 09",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 10,
+              "title": "Episode 10",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 11,
+              "title": "Episode 11",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 12,
+              "title": "Episode 12",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 13,
+              "title": "Episode 13",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 14,
+              "title": "Episode 14",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 15,
+              "title": "Episode 15",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 16,
+              "title": "Episode 16",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 17,
+              "title": "Episode 17",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 18,
+              "title": "Episode 18",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 19,
+              "title": "Episode 19",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 20,
+              "title": "Episode 20",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 21,
+              "title": "Episode 21",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 22,
+              "title": "Episode 22",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 23,
+              "title": "Episode 23",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 24,
+              "title": "Episode 24",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 25,
+              "title": "Episode 25",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 26,
+              "title": "Episode 26",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 27,
+              "title": "Episode 27",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 28,
+              "title": "Episode 28",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 29,
+              "title": "Episode 29",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 30,
+              "title": "Episode 30",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 31,
+              "title": "Episode 31",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 32,
+              "title": "Episode 32",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 33,
+              "title": "Episode 33",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 34,
+              "title": "Episode 34",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 35,
+              "title": "Episode 35",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 36,
+              "title": "Episode 36",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 37,
+              "title": "Episode 37",
+              "subtitle": "Coming soon",
+              "file": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "naruto",
+      "title": "Naruto",
+      "status": "Completed",
+      "genre": "Action • Adventure",
+      "description": "A young ninja works toward his dream of becoming Hokage.",
+      "seasons": [
+        {
+          "number": 1,
+          "episodes": [
+            {
+              "number": 1,
+              "title": "Episode 01",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 2,
+              "title": "Episode 02",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 3,
+              "title": "Episode 03",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 4,
+              "title": "Episode 04",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 5,
+              "title": "Episode 05",
+              "subtitle": "Coming soon",
+              "file": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jujutsu-kaisen",
+      "title": "Jujutsu Kaisen",
+      "status": "Ongoing",
+      "genre": "Action • Supernatural",
+      "description": "Yuji Itadori enters the dangerous world of curses and sorcerers.",
+      "seasons": [
+        {
+          "number": 1,
+          "episodes": [
+            {
+              "number": 1,
+              "title": "Episode 01",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 2,
+              "title": "Episode 02",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 3,
+              "title": "Episode 03",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 4,
+              "title": "Episode 04",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 5,
+              "title": "Episode 05",
+              "subtitle": "Coming soon",
+              "file": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dandadan",
+      "title": "Dandadan",
+      "status": "Ongoing",
+      "genre": "Action • Comedy",
+      "description": "Two teenagers encounter bizarre supernatural events.",
+      "seasons": [
+        {
+          "number": 1,
+          "episodes": [
+            {
+              "number": 1,
+              "title": "Episode 01",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 2,
+              "title": "Episode 02",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 3,
+              "title": "Episode 03",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 4,
+              "title": "Episode 04",
+              "subtitle": "Coming soon",
+              "file": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "solo-leveling",
+      "title": "Solo Leveling",
+      "status": "Completed",
+      "genre": "Action • Fantasy",
+      "description": "A weak hunter discovers a mysterious power that lets him grow stronger.",
+      "seasons": [
+        {
+          "number": 1,
+          "episodes": [
+            {
+              "number": 1,
+              "title": "Episode 01",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 2,
+              "title": "Episode 02",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 3,
+              "title": "Episode 03",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 4,
+              "title": "Episode 04",
+              "subtitle": "Coming soon",
+              "file": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chainsaw-man",
+      "title": "Chainsaw Man",
+      "status": "Ongoing",
+      "genre": "Action • Dark Fantasy",
+      "description": "Denji's life changes after an encounter with a devil.",
+      "seasons": [
+        {
+          "number": 1,
+          "episodes": [
+            {
+              "number": 1,
+              "title": "Episode 01",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 2,
+              "title": "Episode 02",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 3,
+              "title": "Episode 03",
+              "subtitle": "Coming soon",
+              "file": ""
+            },
+            {
+              "number": 4,
+              "title": "Episode 04",
+              "subtitle": "Coming soon",
+              "file": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
