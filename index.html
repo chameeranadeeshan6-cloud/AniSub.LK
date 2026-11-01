@@ -4,332 +4,157 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>AniSub LK | Sinhala Anime Subtitles</title>
+<title>AniSub LK - Sinhala Anime Subtitles</title>
 
 <style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background: #09090e;
-  color: #fff;
-  font-family: Arial, sans-serif;
-}
-
-header {
-  background: #111019;
-  padding: 20px 6%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid #292038;
-}
-
-.logo {
-  font-size: 25px;
-  font-weight: bold;
-}
-
-.logo span {
-  color: #a855f7;
-}
-
-nav a {
-  color: #ccc;
-  text-decoration: none;
-  margin-left: 16px;
-  font-size: 14px;
-}
-
-nav a:hover {
-  color: #c084fc;
-}
-
-.hero {
-  padding: 55px 6%;
-  text-align: center;
-  background: linear-gradient(135deg,#211038,#0c0b13,#190d29);
-}
-
-.hero h1 {
-  font-size: 34px;
-  margin-bottom: 12px;
-}
-
-.hero h1 span {
-  color: #c084fc;
-}
-
-.hero p {
-  color: #c5b8d5;
-  margin-bottom: 25px;
-}
-
-.search {
-  max-width: 520px;
-  margin: auto;
-  display: flex;
-}
-
-.search input {
-  flex: 1;
-  min-width: 0;
-  padding: 14px;
-  border: none;
-  border-radius: 8px 0 0 8px;
-  background: #211c2b;
-  color: white;
-  outline: none;
-}
-
-.search button {
-  padding: 14px 20px;
-  background: #9333ea;
-  color: white;
-  border: none;
-  border-radius: 0 8px 8px 0;
-  cursor: pointer;
-}
-
-.container {
-  padding: 35px 6%;
-}
-
-.section-title {
-  font-size: 22px;
-  margin-bottom: 22px;
-  border-left: 4px solid #a855f7;
-  padding-left: 12px;
-}
-
-.categories {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin-bottom: 28px;
-}
-
-.category {
-  background: #211a2d;
-  color: #d8b4fe;
-  padding: 10px 17px;
-  border-radius: 20px;
-  font-size: 13px;
-  text-decoration: none;
-}
-
-.anime-grid {
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  gap: 18px;
-}
-
-.anime-card {
-  background: #15131d;
-  border: 1px solid #292238;
-  border-radius: 10px;
-  overflow: hidden;
-  transition: 0.2s;
-}
-
-.anime-card:hover {
-  transform: translateY(-4px);
-  border-color: #a855f7;
-}
-
-.poster {
-  width: 100%;
-  height: 210px;
-  object-fit: cover;
-  background: #241936;
-}
-
-.anime-info {
-  padding: 13px;
-}
-
-.anime-info h3 {
-  font-size: 15px;
-  margin-bottom: 8px;
-}
-
-.anime-info p {
-  color: #aaa;
-  font-size: 12px;
-  margin-bottom: 12px;
-}
-
-.sub-btn {
-  display: block;
-  text-align: center;
-  padding: 9px;
-  border-radius: 6px;
-  background: #792ac0;
-  color: white;
-  text-decoration: none;
-  font-size: 12px;
-}
-
-.empty {
-  color: #999;
-  padding: 20px 0;
-}
-
-footer {
-  margin-top: 40px;
-  padding: 25px;
-  background: #111019;
-  color: #888;
-  text-align: center;
-  font-size: 13px;
-}
-
-@media(max-width:750px) {
-  .anime-grid {
-    grid-template-columns: repeat(2,1fr);
-    gap: 12px;
-  }
-
-  nav a {
-    margin-left: 8px;
-    font-size: 12px;
-  }
-
-  .poster {
-    height: 190px;
-  }
-
-  .hero h1 {
-    font-size: 27px;
-  }
-}
-
-@media(max-width:380px) {
-  header {
-    padding: 15px 4%;
-  }
-
-  nav a {
-    margin-left: 5px;
-    font-size: 11px;
-  }
-}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#090910;color:#fff;font-family:Arial,sans-serif}
+header{background:#11111d;padding:20px 6%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:15px;border-bottom:1px solid #29243e}
+.logo{font-size:27px;font-weight:bold;color:#b58aff}
+.logo span{color:white}
+nav a{color:#ddd;text-decoration:none;margin-left:16px;font-size:14px}
+nav a:hover{color:#bd91ff}
+.hero{text-align:center;padding:65px 15px 45px;background:linear-gradient(135deg,#19102d,#090910)}
+.hero h1{font-size:36px;margin-bottom:12px}
+.hero h1 span{color:#bd91ff}
+.hero p{color:#aaa;margin-bottom:25px}
+.search{width:90%;max-width:470px;padding:15px;border-radius:9px;border:1px solid #554174;background:#171522;color:white;font-size:15px;outline:none}
+section{padding:35px 6%}
+.section-title{font-size:23px;margin-bottom:22px}
+.section-title span{color:#b58aff}
+.filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:22px}
+.filter{background:#191725;color:#ddd;border:1px solid #393044;padding:9px 17px;border-radius:20px;cursor:pointer}
+.filter.active,.filter:hover{background:#8855ce;color:white}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:17px}
+.card{background:#151420;border:1px solid #292438;border-radius:12px;overflow:hidden;cursor:pointer;transition:.2s}
+.card:hover{transform:translateY(-5px);border-color:#a879ed}
+.poster{height:185px;display:flex;align-items:center;justify-content:center;text-align:center;padding:12px;font-size:23px;font-weight:bold;background:linear-gradient(145deg,#39205d,#11111d)}
+.poster small{font-size:12px;display:block;color:#d6c0ff;margin-top:9px}
+.card-info{padding:13px}
+.card-info h3{font-size:15px;margin-bottom:8px}
+.status{font-size:11px;color:#c9a7ff}
+.latest{background:#11111b;border-top:1px solid #292438}
+.release{padding:16px;background:#191725;border-radius:9px;margin-bottom:10px;color:#ccc}
+footer{text-align:center;padding:25px;color:#777;border-top:1px solid #292438;font-size:13px}
+.modal{display:none;position:fixed;inset:0;background:#000d;align-items:center;justify-content:center;padding:20px}
+.modal-box{background:#191725;border:1px solid #7452a2;border-radius:13px;padding:25px;max-width:420px;width:100%}
+.modal-box h2{color:#c6a1ff;margin-bottom:12px}
+.modal-box p{color:#ccc;line-height:1.6;margin-bottom:15px}
+.close{float:right;background:#38284e;color:white;border:0;padding:7px 12px;border-radius:6px;cursor:pointer}
+@media(max-width:500px){.hero h1{font-size:29px}nav a{margin-left:8px}.poster{height:160px}}
 </style>
 </head>
 
 <body>
 
 <header>
-  <div class="logo">AniSub <span>LK</span></div>
-
-  <nav>
-    <a href="#">Home</a>
-    <a href="#anime">Anime</a>
-    <a href="#latest">Latest</a>
-  </nav>
+<div class="logo">AniSub <span>LK</span></div>
+<nav>
+<a href="#home">Home</a>
+<a href="#anime">Anime</a>
+<a href="#latest">Latest</a>
+</nav>
 </header>
 
-<section class="hero">
-  <h1>Welcome to <span>AniSub LK</span></h1>
-  <p>Your destination for Sinhala anime subtitles.</p>
+<div class="hero" id="home">
+<h1>Welcome to <span>AniSub LK</span></h1>
+<p>Your anime world, in Sinhala.</p>
+<input class="search" id="search" placeholder="Search your favourite anime..." oninput="renderAnime()">
+</div>
 
-  <div class="search">
-    <input id="searchInput"
-      type="text"
-      placeholder="Search your favourite anime...">
+<section id="anime">
+<h2 class="section-title">Anime <span>Library</span></h2>
 
-    <button onclick="searchAnime()">Search</button>
-  </div>
+<div class="filters">
+<button class="filter active" onclick="setFilter('All',this)">All</button>
+<button class="filter" onclick="setFilter('Ongoing',this)">Ongoing</button>
+<button class="filter" onclick="setFilter('Completed',this)">Completed</button>
+</div>
+
+<div class="grid" id="animeGrid"></div>
 </section>
 
-<main class="container">
-
-  <section id="anime">
-    <h2 class="section-title">Explore Anime</h2>
-
-    <div class="categories">
-      <a class="category" href="#anime">All Anime</a>
-      <a class="category" href="#latest">Latest Subs</a>
-      <a class="category" href="#anime">Ongoing</a>
-      <a class="category" href="#anime">Completed</a>
-    </div>
-
-    <div class="anime-grid" id="animeGrid">
-
-      <article class="anime-card">
-        <div class="poster"></div>
-        <div class="anime-info">
-          <h3>Solo Leveling</h3>
-          <p>Action • Fantasy</p>
-          <a class="sub-btn" href="#latest">View Anime</a>
-        </div>
-      </article>
-
-      <article class="anime-card">
-        <div class="poster"></div>
-        <div class="anime-info">
-          <h3>Jujutsu Kaisen</h3>
-          <p>Action • Supernatural</p>
-          <a class="sub-btn" href="#latest">View Anime</a>
-        </div>
-      </article>
-
-      <article class="anime-card">
-        <div class="poster"></div>
-        <div class="anime-info">
-          <h3>Dandadan</h3>
-          <p>Comedy • Action</p>
-          <a class="sub-btn" href="#latest">View Anime</a>
-        </div>
-      </article>
-
-      <article class="anime-card">
-        <div class="poster"></div>
-        <div class="anime-info">
-          <h3>Death Note</h3>
-          <p>Thriller • Mystery</p>
-          <a class="sub-btn" href="#latest">View Anime</a>
-        </div>
-      </article>
-
-    </div>
-  </section>
-
-  <section id="latest" style="margin-top:45px">
-    <h2 class="section-title">Latest Sinhala Subtitles</h2>
-    <p class="empty">
-      New subtitle releases will appear here.
-    </p>
-  </section>
-
-</main>
+<section class="latest" id="latest">
+<h2 class="section-title">Latest <span>Releases</span></h2>
+<div class="release">✨ Welcome to AniSub LK! Our subtitle library is being prepared.</div>
+<div class="release">📢 New Sinhala subtitle releases will appear here.</div>
+</section>
 
 <footer>
-  <p>© 2026 AniSub LK</p>
-  <p style="margin-top:8px">Made for Anime Fans 🇱🇰</p>
+<p>© 2026 AniSub LK | Made for Anime Fans</p>
+<p style="margin-top:8px">Only authorized subtitle files will be shared.</p>
 </footer>
 
+<div class="modal" id="modal" onclick="if(event.target===this)closeModal()">
+<div class="modal-box">
+<button class="close" onclick="closeModal()">Close ✕</button>
+<h2 id="modalTitle"></h2>
+<p id="modalStatus"></p>
+<p id="modalDescription"></p>
+<p>Sinhala subtitles: Coming soon</p>
+</div>
+</div>
+
 <script>
-function searchAnime() {
-  const input = document
-    .getElementById("searchInput")
-    .value.toLowerCase();
+const anime = [
+{title:"Solo Leveling",status:"Completed",genre:"Action • Fantasy",description:"A weak hunter discovers a mysterious power that allows him to grow stronger."},
+{title:"Jujutsu Kaisen",status:"Ongoing",genre:"Action • Supernatural",description:"Yuji Itadori enters the dangerous world of curses and jujutsu sorcerers."},
+{title:"Dandadan",status:"Ongoing",genre:"Action • Comedy",description:"Two teenagers explore strange supernatural events and unexpected adventures."},
+{title:"Death Note",status:"Completed",genre:"Mystery • Thriller",description:"A student discovers a mysterious notebook with extraordinary powers."},
+{title:"Naruto",status:"Completed",genre:"Action • Adventure",description:"A young ninja dreams of becoming the strongest leader of his village."},
+{title:"Chainsaw Man",status:"Ongoing",genre:"Action • Dark Fantasy",description:"Denji's life changes after an unexpected encounter with a devil."}
+];
 
-  const cards = document.querySelectorAll(".anime-card");
+let currentFilter="All";
 
-  cards.forEach(card => {
-    const name = card.querySelector("h3")
-      .textContent.toLowerCase();
+function renderAnime(){
+const search=document.getElementById("search").value.toLowerCase();
+const grid=document.getElementById("animeGrid");
+grid.innerHTML="";
 
-    card.style.display =
-      name.includes(input) ? "" : "none";
-  });
+const filtered=anime.filter(a=>
+(a.title.toLowerCase().includes(search)) &&
+(currentFilter==="All" || a.status===currentFilter)
+);
+
+if(filtered.length===0){
+grid.innerHTML="<p>No anime found.</p>";
+return;
 }
-</script>
 
+filtered.forEach((a,i)=>{
+const card=document.createElement("div");
+card.className="card";
+card.innerHTML=`
+<div class="poster">${a.title}</div>
+<div class="card-info">
+<h3>${a.title}</h3>
+<div class="status">${a.status} • ${a.genre}</div>
+</div>`;
+card.onclick=()=>showDetails(a);
+grid.appendChild(card);
+});
+}
+
+function setFilter(filter,button){
+currentFilter=filter;
+document.querySelectorAll(".filter").forEach(b=>b.classList.remove("active"));
+button.classList.add("active");
+renderAnime();
+}
+
+function showDetails(a){
+document.getElementById("modalTitle").textContent=a.title;
+document.getElementById("modalStatus").textContent=a.status+" • "+a.genre;
+document.getElementById("modalDescription").textContent=a.description;
+document.getElementById("modal").style.display="flex";
+}
+
+function closeModal(){
+document.getElementById("modal").style.display="none";
+}
+
+renderAnime();
+</script>
 </body>
 </html>
