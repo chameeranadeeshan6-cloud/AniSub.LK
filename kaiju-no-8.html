@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kaiju No. 8 | AniSub LK</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#090910;color:white;font-family:Arial,sans-serif}
+header{padding:20px;background:#151321;border-bottom:2px solid #a46bea}
+.logo{font-size:25px;font-weight:bold;color:#c49aff}
+.logo span{color:white}
+main{padding:25px 6%;max-width:850px;margin:auto}
+.hero{padding:35px 20px;text-align:center;background:linear-gradient(135deg,#382052,#11111d);border-radius:14px}
+h1{font-size:32px}
+.hero p{color:#ddd;line-height:1.6}
+h2{margin-top:35px;color:#c49aff}
+.episode{background:#191725;padding:16px;margin:10px 0;border-radius:9px;border:1px solid #30283e}
+.episode span{color:#bca0e8;font-size:13px}
+.status{float:right;color:#aaa;font-size:12px}
+a{color:#c49aff;text-decoration:none}
+footer{text-align:center;padding:25px;color:#888}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">AniSub <span>LK</span></div>
+</header>
+
+<main>
+<div class="hero">
+<h1>Kaiju No. 8</h1>
+<p>Kafka Hibino dreams of joining the Defense Force. His life changes when he gains the ability to transform into a Kaiju.</p>
+<p>Action • Sci-Fi • Adventure</p>
+</div>
+
+<h2>Season 1 — 12 Episodes</h2>
+<div id="season1"></div>
+
+<h2>Season 2 — 11 Episodes</h2>
+<div id="season2"></div>
+
+<p style="margin-top:30px;color:#aaa">
+Sinhala subtitle information will be added when authorized subtitle files are available.
+</p>
+<p><a href="index.html">← Back to Anime Library</a></p>
+</main>
+
+<footer>© 2026 AniSub LK</footer>
+
+<script>
+const s1=[
+"01 - The Man Who Became a Kaiju",
+"02 - The Kaiju Who Defeats Kaiju",
+"03 - Revenge Match",
+"04 - Fortitude 9.8",
+"05 - Joining Up!",
+"06 - Sagamihara Neutralization Operation At Daybreak",
+"07 - Kaiju No. 9",
+"08 - Welcome to the Defense Force",
+"09 - Raid on Tachikawa Base",
+"10 - Secret Revealed",
+"11 - Kaiju No. 8 Captured",
+"12 - Kafka Hibino"
+];
+
+const s2=[
+"13 - Kaiju Weapon",
+"14 - The Next Generation's Trial",
+"15 - The Strongest Division",
+"16 - The Man Called Isao Shinomiya",
+"17 - I Want to Be Strong",
+"18 - Compatible User",
+"19 - Wall",
+"20 - Destiny",
+"21 - Omen",
+"22 - Cataclysms",
+"23 - Second Wave"
+];
+
+function showEpisodes(list,id){
+document.getElementById(id).innerHTML=list.map(ep=>
+`<div class="episode">${ep}<span class="status">Subtitle: Coming soon</span></div>`
+).join("");
+}
+showEpisodes(s1,"season1");
+showEpisodes(s2,"season2");
+</script>
+</body>
+</html>
